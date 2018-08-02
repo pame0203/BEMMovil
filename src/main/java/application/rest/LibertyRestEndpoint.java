@@ -37,7 +37,7 @@ public class LibertyRestEndpoint extends Application {
                   notes = "GET operation of a sample REST endpoint")
     @ApiResponses(value = { @ApiResponse(code = 200, message = "successful operation") })
     public String hello() {
-        return "Hello from the REST endpoint 3.1!!";
+        return "Hello from the REST endpoint 3.2!!";
     }
 
 }
